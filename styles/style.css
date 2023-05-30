@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+}
+nav {
+	background-color: black;
+	overflow: hidden;
+	position: relative;
+}
+
+nav:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: black;
+}
+
+.nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+nav .logo {
+	color: #FF9E2D;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 72px;
+}
+
+nav .center-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+nav a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;body {
+	margin: 0;
+}
+}
+
+nav a:hover {
+	color: #5F2D00;
+}
+
+.active {
+	color: #FF9E2D;
+}
+
+nav .right-links {
+	display: flex;
+	align-items: center;
+}
+
+nav .right-links a:last-child {
+	background-color: #FF9E2D;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 32px;
+	margin-left: 12px;
+}
+
+
+
+
+
+.hero {
+  background-color: #000;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero p {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.orange {
+  color: #FF9E2D;
+}
+
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 50px 0;
+}
+
+.category {
+  width: 37%;
+  height: 140px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.sportif {
+  background: url(pexels-pixabay-46798.jpg), #EEEEEE;
+    background-size: cover;
+  background-position: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+  margin-right: 80px;
+}
+
+.culturel {
+
+background: url(pexels-matheus-viana-2372945.jpg), #EEEEEE;
+  background-size: cover;
+  background-position: center;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+border-radius: 20px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+
+
+}
+a {
+  text-decoration: none;
+}
+.premiere {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.premiere p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: black;
+  margin: 0;
+}
+
+.premiere strong {
+  color: #030303;
+}

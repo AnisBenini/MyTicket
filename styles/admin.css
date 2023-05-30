@@ -1,0 +1,36 @@
+table {
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #d3d3d3, 
+              -10px -10px 20px #ffffff;
+}
+
+th {
+  background-color: #a0a0a0;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+td {
+  padding: 10px;
+}
+
+button {
+  background-color: #a0a0a0;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 10px #d3d3d3, 
+              -5px -5px 10px #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #808080;
+  box-shadow: 3px 3px 5px #d3d3d3, 
+              -3px -3px 5px #ffffff;
+}
